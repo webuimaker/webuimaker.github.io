@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width:1600px){
+	nav.hifNavbar{position:relative; top:113px; margin-bottom:113px;}
+	nav.hifNavbar ul.navbar-nav li:nth-child(5){
+		margin-left:158px
+	}
+	.logoDiv{left:calc(50% - 80px)}
+}
+	
+@media (min-width: 1399px) and (max-width: 1600px) {
+	
+	nav.hifNavbar{position:relative; top:113px; margin-bottom:113px;}
+	nav.hifNavbar ul.navbar-nav li:nth-child(5){
+		margin-left:158px
+	}
+	.logoDiv{left:calc(50% - 80px)}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+   
+   nav.hifNavbar{position:relative; top:113px; margin-bottom:113px;}
+	nav.hifNavbar ul.navbar-nav li:nth-child(5){
+		margin-left:158px
+	}
+	.logoDiv{left:calc(50% - 80px)}
+}
+
+@media only screen and (min-width:969px) and (max-width:1024px){
+	
+	nav.hifNavbar{position:relative; top:113px; margin-bottom:113px;}
+	nav.hifNavbar ul.navbar-nav li:nth-child(5){
+		margin-left:158px
+	}	
+	.logoDiv{left:calc(50% - 58px)}
+	nav.hifNavbar ul.navbar-nav li a{font-size:13px; padding:20px 6px;}
+}
+@media only screen and (min-width:768px) and (max-width:968px){
+	nav.hifNavbar .container, nav.hifNavbar .container .navbar-collapse{padding-left:0px; padding-right:0px;}
+	nav.hifNavbar{position:relative; top:113px; margin-bottom:113px;}
+	nav.hifNavbar ul.navbar-nav li:nth-child(5){
+		margin-left:80px;
+		
+	}	
+	.logoDiv{left:calc(50% - 58px); width:140px;}
+	nav.hifNavbar ul.navbar-nav li a{font-size:11px; padding:20px 7px;}
+	.skillsTrainning .box .skill-img{width:34%}
+	.skillsTrainning .box .skill-content{width: calc(65% - 30px);}
+	
+}
+@media only screen and (min-width:1024px) and (max-width:1200px){
+	
+		.skillsTrainning .box{min-height:auto; overflow:hidden}
+		.skillsTrainning .box .skill-content h3{margin-top:10px;}
+		.skillsTrainning .box .skill-content p{line-height:1.3em}
+		.skillsTrainning .box .skill-content .btn-green{margin-top:10px;}
+}
+
+
+@media screen and (max-width: 767px) {
+ 
+  .logoDiv{width:100px; left:calc(50% - 50px); z-index:1}
+  nav.hifNavbar{ top: 80px;margin-bottom:80px;}
+  nav.hifNavbar .navbar-header button{background-color:#fff}
+  nav.hifNavbar .navbar-header button .icon-bar{background-color:#0a1f31}
+  nav.hifNavbar ul.navbar-nav li a{font-size:13px; padding:15px 10px;}
+  .skillsTrainning .box{min-height:auto; overflow:hidden; padding-bottom:10px;}
+  .skillsTrainning .box .skill-content{width: calc(55% - 15px); margin-left:15px;	}
+  .mtop20xs{margin-top:20px;}
+  
+  .eventnews  .event-img, .eventnews  .event-content{width:100%; margin:0px;}
+  .eventnews  .event-content{margin-top:20px;}
+}
+
+
+
+@media screen and (max-width:479px){
+	
+}

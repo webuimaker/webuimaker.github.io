@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html{width:100%; min-height:100%;}
+.clear
+{
+	clear:both;
+}
+
+body{font-family: 'Lato', sans-serif;
+	font-size:14px;
+	color:#3f3f3f;
+	overflow-x:hidden;}
+	
+a:focus { outline:none;}
+h1, h2, h3, h4, h5, h6 {font-weight:700; font-family: 'Raleway', sans-serif;  color:#0a1f31;}
+h1{font-size:32px; margin-bottom:40px;}
+h4{font-size:25px;}
+
+img{max-width:100%;}
+p{margin:0; padding:0; color:#000000;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul{list-style:none;}
+.no-pad{padding:0 !important;}
+.no-spacing{margin:0 !important;}
+.no-pad-rt{padding-right:0!important;}
+.no-pad-lft{padding-left:0!important;}
+.no-floting{float:none;}
+.hor-center{margin:auto;}
+.hor-spacer-10{margin-top:10px;}
+.rel{position:relative;}
+.abs{position:absolute;}
+.txt-center{text-align:center;}
+.mTop25{margin-top:25px;}
+.mTop35{margin-top:35px;}
+
+/****************************************************
+					NAVBAR
+/****************************************************/
+.logoDiv{position:absolute; z-index:1}
+nav.hifNavbar{background:#0a1f31; border-radius:0px;}
+nav.hifNavbar ul.navbar-nav li a{
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	font-size:15px;
+	text-transform:uppercase;
+	color:#fff;
+	padding:20px 10px;
+}
+nav.hifNavbar ul.navbar-nav li.active a, nav.hifNavbar ul.navbar-nav li a:hover, nav.hifNavbar ul.navbar-nav li a:focus{
+	background-color:#3a6a00;
+	color:#fff;
+}
+/****************************************************
+					skillsTrainning
+/****************************************************/
+.skillsTrainning {padding-top:30px;padding-bottom:30px;}
+.skillsTrainning .box{background:#0a1f31; min-height:189px; color:#fff; margin-bottom:30px;}
+.skillsTrainning .box .skill-img{float:left; width:44%;}
+.skillsTrainning .box .skill-content{float: left;
+    width: calc(56% - 30px);
+    margin-left: 30px;}
+.skillsTrainning .box .skill-content h3{color:#fff; font-size:20px; font-weight:400; text-transform:uppercase}
+.skillsTrainning .box .skill-content p{color:#fff; line-height:1.5em}
+.btn-green{background:#3a6a00; border-radius:4px; padding:10px 13px; color:#fff; display:inline-block; margin-top:20px;}
+.btn-green:hover{background:#325b00; color:#fff;}
+
+.banner{padding:0px;}
+
+.ourpackage {background:#f6f6f6; padding-top:30px; padding-bottom:60px;}
+.videosection{padding-top:60px; padding-bottom:60px; border-bottom:1px solid #cccccc;}
+.videosection h1{margin-top:10px; margin-bottom:20px;}
+.eventnews{padding-bottom:50px; padding-top:40px;}
+.eventnews .event{margin-bottom:30px; overflow:hidden}
+.eventnews  .event-img{
+	float: left;
+    height: 106px;
+    margin: 0 25px 0px 0;
+    width: 165px;
+}
+.eventnews  .event-content{
+	float: left;
+	width:calc(100% - 190px);
+}
+.eventnews  .event-content h4{margin-top:0px; font-size:16px; font-weight:500;text-transform: uppercase;}
+.eventnews  .event-content .commentdate{margin-top:15px; padding:0px;}
+.eventnews  .event-content .commentdate li {display:inline-block;}
+.eventnews  .event-content .commentdate li {font-family: 'Poppins', sans-serif; font-size:13px; color:#676767; font-weight:100; margin-right:15px;} 
+.eventnews  .event-content .commentdate li i{margin-right:6px;}
+
+footer{padding:60px 0px 10px; background:#0a1f31; color:#9297a7}
+footer a{color:#9297a7;}
+footer a:hover{color:#ffd800;}
+footer p{color:#9297a7; margin-bottom:20px;}
+
+footer p i.fa{font-size:18px;}
+.footer-link{margin-bottom:35px;}
+.footer-link li{display:inline-block; margin-right:20px;}
+.footer-link li a{color:#9297a7; font-size:14px; font-family: 'PT Sans', sans-serif;}
+.footer-link li a:hover,.footer-link li a.active{color:#ffd800;}
+.social-icon{margin:40px auto}
+.social-icon li{display:inline-block; margin-right:20px;}
+.social-icon li a{font-size:18px; color:#9297a7;}
+.social-icon li a:hover,.social-icon li a.active{color:#ffd800;}
+footer .link-block{display:block;}
