@@ -1,72 +1,786 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--  Google Fonts -->
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:300,400,700" rel="stylesheet">
-<!-- CSS -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/animsition.css">
-<link rel="stylesheet" href="css/style.css">
-<!-- JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script>
-<title>Vivek Kumar | UI/UX Designer</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Vivek Kumar - Senior UI/UX Designer | Enterprise SaaS | Workflow Optimization</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Style
+  * Template URL: https://bootstrapmade.com/style-bootstrap-portfolio-template/
+  * Updated: Jul 02 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
-	<div class="container-fluid wrapper">
-    	<header>
-            <!-- Main Navigation/Menu
-            ====================================-->
-            <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
-              
-                    <div class="menu-wrapper">
-                        <div class="navbar-header">
-                            <a class="navbar-brand logo" href="#"><img src="images/logo.png" alt="logo"> <span>Fresh Ideas of life</span></a>
-                        </div>
-        
-                        <a href="#" class="menu-toggle" data-toggle="modal" data-target=".menupopup">
-                            <div class="menu-pop">
-                                Menu <img src="images/menu.png" alt="menu bar">
-                            </div>
-                        </a>
-                    </div>
-                
-                
-            </nav>
-            
-            <!-- Modal Menu
-    ====================================-->
-    <div id="menuOne">
-        <div class="modal fade menupopup" tabindex="-1" role="dialog">
-            <div class="modal-ovelay"><!-- modal-ovelay -->
-                <div class="close-text" data-dismiss="modal" aria-label="Close"><img src="images/close-icon.png" alt="close"></div>
-                <ul class="list-unstyled menu-lists">
-                    <li class="active"><a href="index.html" class="animsition-link">Home</a></li>
-                    <li><a href="about2.html" class="animsition-link">About</a></li>
-                    <li><a href="work.html" class="animsition-link">Work</a></li>
-                    <li><a href="services2.html" class="animsition-link">Services</a></li>
-                    <li><a href="blog2.html" class="animsition-link">Blog</a></li>
-                    <li><a href="contact2.html" class="animsition-link">Contact</a></li>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <!-- Uncomment the line below if you also wish to use an text logo -->
+        <!-- <h1 class="sitename">Style</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+
+        <div class="profile-img">
+          <img src="assets/img/profile/vivek-kumar.jpg" alt="" class="img-fluid rounded-circle">
+        </div>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center active">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">Vivek Kumar</h1>
+        </a>
+
+        <div class="social-links text-center">          
+          <a href="mailto:vivekwebmaker@gmail.com" target="_blank" class="email"><i class="bi bi-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/vivek-kumar-118a38186/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/webuimaker/"><i class="bi bi-github"></i></a>
+        </div>
+
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#work">Work</a></li>
+          <!--<li><a href="#services">Services</a></li>
+           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
                 </ul>
-            </div>
-        </div>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
     </div>
-        </header>
-        <div class="home-wrapper">
-        	<div class="caption-content2 animated fade-in-up-sm">
-             	<p class="supline">Welcome’ to my website, it's time for us all to</p>	
-                <h2 class="tagline">Vivek Kumar</h2>
-                <p class="subline">Senior UI/UX Designer | SaaS & Product Systems</p>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-delay="100">
+            <div class="content-wrapper">
+              <h1 class="hero-title">Vivek Kumar 
+                <p class="font-sm">Senior UI/UX Designer</p>
+              </h1>
+              <p class="lead">Designing scalable enterprise systems, SaaS platforms, and complex workflow applications that solve real business problems.</p>
+
+              <!-- <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-item">
+                  <span class="purecounter" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="2">0</span>
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                  <span class="purecounter" data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="2">0</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                  <span class="purecounter" data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="2">0</span>
+                  <span class="stat-label">Happy Clients</span>
+                </div>
+              </div> -->
+
+              <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="/assets/cv/Vivek_Kumar_UIUX_Designer.pdf"  class="btn btn-outline">Download Resume</a>
+              </div>
+
+              <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+                 <a href="mailto:vivekwebmaker@gmail.com" target="_blank" class="email"><i class="bi bi-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/vivek-kumar-118a38186/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/webuimaker/"><i class="bi bi-github"></i></a>
+                <!-- <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a> -->
+              </div>
             </div>
+          </div>
+
+          <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-delay="200">
+            <div class="image-container">
+              <div class="floating-elements">
+                <div class="floating-card card-1" data-aos="zoom-in" data-aos-delay="300">
+                  <i class="bi bi-palette"></i>
+                  <span>UI/UX Design</span>
+                </div>
+                <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="400">
+                  <i class="bi bi-code-slash"></i>
+                  <span>Development</span>
+                </div>
+                <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="500">
+                  <i class="bi bi-lightning"></i>
+                  <span>Creative Ideas</span>
+                </div>
+              </div>
+              <img src="assets/img/profile/vivek-kumar.jpg" alt="Portfolio Hero" class="img-fluid hero-main-image">
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+
         </div>
-        <footer>`
-        	<p>&copy; 2016 Vivek Kumar. All Rights Reserved</p>
-        </footer>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>About Me</h2>
+        <!-- <p>I am a Senior UI/UX Designer with over 5+ years of experience designing enterprise SaaS products, workflow systems, and data-driven dashboards.</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+          <!-- <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="profile-image-wrapper">
+              <div class="profile-image">
+                <img src="assets/img/profile/profile-square-1.webp" alt="Profile" class="img-fluid">
+              </div>
+              <div class="signature-section">
+                <img src="assets/img/misc/signature-1.webp" alt="Signature" class="signature">
+                <p class="quote">Building meaningful digital experiences through creative code.</p>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-lg-12"  data-aos-delay="300">
+            <div class="about-content">
+              <div class="intro">
+                <!-- <h2>Hi, I'm Brandon - a Creative Developer</h2> -->
+                <p>I am a Senior UI/UX Designer with 6+ years of experience designing enterprise applications, admin panels, SaaS products, and system-driven digital platforms.</p>
+                <p>I specialize in solving complex workflow challenges, improving usability for large-scale systems, and creating structured design systems that scale across products.</p>
+                <p>My focus is not just UI — but business impact, user efficiency, and long-term product scalability.</p>
+              </div>
+              <div class="skills-summary ">
+                <h3>Expertise</h3>
+                <!-- <ul>
+                  <li>Enterprise UX Strategy</li>
+                  <li>Workflow & Process Optimization</li>
+                  <li>Information Architecture</li>
+                  <li>Dashboard & Admin Interface Design</li>
+                  <li>Developer Collaboration & Handoff</li>
+                </ul> -->
+              </div>
+              <div class="journey-timeline px-1 my-2">
+                <div class="row ">
+                  <div class="timeline-item col-lg-4">                  
+                    <div class="description">Enterprise UX Architecture</div>
+                  </div>
+                  <div class="timeline-item col-lg-4">
+                    <div class="description">Complex Workflow Design</div>
+                  </div>
+                  <div class="timeline-item col-lg-4">
+                    <div class="description">Admin & Dashboard Systems</div>
+                  </div>
+                  <div class="timeline-item col-lg-4">
+                    <div class="description">Design Systems & Design Tokens</div>
+                  </div>
+                  <div class="timeline-item col-lg-4">
+                    <div class="description">SaaS Product Design</div>
+                  </div>
+                  <div class="timeline-item col-lg-4">
+                    <div class="description">UX Research & Usability Testing</div>
+                  </div>
+                  <div class="timeline-item col-lg-4">
+                    <div class="description">Figma & Prototyping</div>
+                  </div>
+                  <div class="timeline-item col-lg-4">
+                    <div class="description">Cross-functional Collaboration</div>
+                  </div>
+                </div>
+                
+                <p class="mt-2">I believe great enterprise design balances usability, governance, and scalability.</p>
+              </div>
+
+              <!-- <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="skill-icon">
+                    <i class="bi bi-palette"></i>
+                  </div>
+                  <h4>UI/UX Design</h4>
+                  <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                  <div class="skill-icon">
+                    <i class="bi bi-code-slash"></i>
+                  </div>
+                  <h4>Frontend Dev</h4>
+                  <p>Sed porttitor lectus nibh. Cras ultricies ligula sed magna</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                  <div class="skill-icon">
+                    <i class="bi bi-camera"></i>
+                  </div>
+                  <h4>Photography</h4>
+                  <p>Vestibulum ac diam sit amet quam vehicula elementum</p>
+                </div>
+              </div> -->
+
+              <!-- <div class="journey-timeline" data-aos="fade-up" data-aos-delay="300">
+                <div class="timeline-item">
+                  <div class="year">2019</div>
+                  <div class="description">Graduated with B.A. in Digital Design from Creative University</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="year">2020</div>
+                  <div class="description">Joined InnovateTech as Junior Frontend Developer</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="year">2023</div>
+                  <div class="description">Launched freelance career specializing in creative web solutions</div>
+                </div>
+              </div> -->
+
+              <!-- <div class="cta-section" data-aos="fade-up" data-aos-delay="400">
+                <div class="fun-fact">
+                  <span class="emoji">☕</span>
+                  <span class="text">Coffee-fueled designer based in Portland</span>
+                </div>
+                <div class="action-buttons">
+                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                  <a href="#" class="btn btn-outline">Download Resume</a>
+                </div>
+              </div> -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Tools & Capabilities</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="skills-grid">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-palette"></i>
+                      <h3>Design</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Figma</span>
+                          <!-- <span class="skill-percentage">95%</span> -->
+                        </div>
+                        <!-- <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> -->
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Adobe XD</span>
+                          <!-- <span class="skill-percentage">88%</span> -->
+                        </div>
+                        <!-- <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> -->
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Photoshop</span>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div><!-- End Frontend Card -->
+                </div>
+
+                <div class="col-md-6">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-lightning"></i>
+                      <h3>UX Research</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">User Interviews</span>                          
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Usability Testing</span>
+                        </div>
+                       
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">A/B Testing</span>
+                        </div>                       
+                      </div>
+                      
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Surveys</span>
+                        </div>                       
+                      </div>
+                      
+                    </div>
+                  </div><!-- End Backend Card -->
+                </div>
+
+                <div class="col-md-6">
+                  <div class="skill-card">
+                    <div class="skill-header">                      
+                      <i class="bi bi-code-slash"></i>
+                      <h3>Technical Understanding</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">HTML/CSS</span>
+                        </div>
+                        
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Javascrip(Basic)</span>
+                        </div>                        
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Git/GitHub</span>
+                        </div>
+                      </div>
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Design Tokens</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Design Card -->
+                </div>
+
+                <div class="col-md-6">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-cloud"></i>
+                      <h3>Collaboration</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Jira</span>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Notion</span>
+                        </div>
+                        
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Miro</span>
+                        </div>
+                      </div>
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Slack</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End DevOps Card -->
+                </div>
+              </div>
+            </div><!-- End Skills Grid -->
+          </div>
+
+          <div class="col-lg-4">
+            <div class="skills-summary">
+              <h3>Certifications</h3>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p> -->
+
+              <div class="summary-stats">
+                <div class="stat-item">                  
+                  <div class="stat-info">
+                    <span class="stat-info">Introduction to Generative AI</span>
+                    <p class="mb-1"><span class="stat-label">Google</span>    </p>
+                      <div class="card-links">
+                        <a href="https://www.skills.google/public_profiles/895ef563-ce54-45ea-82df-35b3880b9f81/badges/15197818?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share" target="_blank" class="link-item">Show <i class="bi bi-arrow-right" ></i></a>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="stat-item">                  
+                  <div class="stat-info">
+                    <span class="stat-info">Enterprise Design Thinking Practitioner</span>
+                    <p class="mb-1"><span class="stat-label">IBM</span>    </p>
+                      <div class="card-links">
+                        <a href="https://www.credly.com/badges/a0b768a1-f124-4a3b-90d2-296a5408a793/linked_in_profile" target="_blank" class="link-item">Show <i class="bi bi-arrow-right" ></i></a>
+                      </div>
+                  </div>
+                </div>
+                <div class="stat-item">                  
+                  <div class="stat-info">
+                    <span class="stat-info">IBM Introduction to UX Design</span>
+                    <p class="mb-1"><span class="stat-label">Student Ambassador Program with IBM SkillsBuild</span>    </p>
+                      <div class="card-links">
+                        <a href="https://www.linkedin.com/in/vivek-kumar-118a38186/overlay/Certifications/1117891530/treasury/?profileId=ACoAACvvgaQBaFq11O_GuGNRVUquVHsFGZySwG0" target="_blank" class="link-item">Show <i class="bi bi-arrow-right" ></i></a>
+                      </div>
+                  </div>
+                </div>
+
+
+               
+              </div>
+
+          
+            </div><!-- End Skills Summary -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="experience" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Professional Experience </h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="experience-section">
+              <!-- <div class="section-header">
+                <h2><i class="bi bi-briefcase"></i> Professional Journey</h2>
+                <p class="section-subtitle">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas vestibulum tortor quam.</p>
+              </div> -->
+
+              <div class=" experience-cards ">
+                <div class="row g-4">                
+                  <div class="col-lg-6 d-flex">
+                    <div class="experience-card">
+                    <div class="card-header">
+                      <div class="role-info">
+                        <h3>Senior UI/UX Designer</h3>
+                        <h4>BJS Home Delivery</h4>
+                      </div>
+                      <span class="duration">2022 - Present</span>
+                    </div>
+                    <div class="card-body">
+                      <!-- <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra veniam sit amet lacus cursus.</p> -->
+                      <ul class="achievements">
+                        <li>Led end-to-end product design from concept to launch for internal and customer-facing platforms </li>
+                        <li>Simplified complex logistics and delivery workflows, improving usability and task  efficiency </li>
+                        <li>Created user flows, wireframes, and high-fidelity designs in Figma</li>
+                        <li>Built and maintained a design system to ensure consistency and scalability </li>
+                        <li>Collaborated closely with Product Managers and Engineers in Agile sprints  </li>
+                        <li> Conducted usability testing and iterated designs based on user feedback </li>
+                      </ul>
+                    </div>
+                    </div>
+                  </div>
+                   
+                  <div class="col-lg-6 d-flex">
+                    <div class="experience-card">
+                    <div class="card-header">
+                      <div class="role-info">
+                        <h3>Self Startup</h3>
+                        <h4>Freelance UI/UX Designer </h4>
+                      </div>
+                      <span class="duration">2019 - 2022</span>
+                    </div>
+                    <div class="card-body">
+                      <p>Donec quam felis ultricies nec pellentesque eu pretium quis sem nulla consequat massa quis enim donec pede justo fringilla vel.</p>
+                      <ul class="achievements">
+                        <li> Designed SaaS and B2B products with a strong focus on usability and visual hierarchy</li>
+                        <li> Translated complex business requirements into intuitive user experiences </li>
+                        <li> Translated Worked directly with founders and cross-functional teams in fast-paced startup environments </li>
+                        <li>Created reusable UI components and patterns in Figma </li>
+                        <li>Worked in fast-paced startup environments with cross-functional teams  </li>
+                      </ul>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-lg-6 d-flex">
+                    <div class="experience-card">
+                    <div class="card-header">
+                      <div class="role-info">
+                        <h3>Senior UI/UX Designer</h3>
+                        <h4>Paxcel Technologies Pvt. Ltd</h4>
+                      </div>
+                      <span class="duration">2015 - 2018</span>
+                    </div>
+                    <div class="card-body">
+                      <p>Nam quam nunc blandit vel luctus pulvinar hendrerit id lorem maecenas nec odio et ante tincidunt tempus donec vitae sapien ut.</p>
+                      <ul class="achievements">
+                        <li> Delivered UI/UX solutions for enterprise and SaaS applications</li>
+                        <li> Designed dashboards, workflows, and responsive user interfaces </li>
+                        <li> Contributed to improving overall product usability and interface consistency </li>
+                        <li> Partnered with developers to ensure design feasibility and quality implementation </li>
+                      </ul>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-lg-6 d-flex">
+                    <div class="experience-card">
+                    <div class="card-header">
+                      <div class="role-info">
+                        <h3>Senior Web Designer </h3>
+                        <h4>IDS Infotech Ltd.</h4>
+                      </div>
+                      <span class="duration">2010 - 2015</span>
+                    </div>
+                    <div class="card-body">
+                      <p>Nam quam nunc blandit vel luctus pulvinar hendrerit id lorem maecenas nec odio et ante tincidunt tempus donec vitae sapien ut.</p>
+                      <ul class="achievements">
+                        <li>Designed user-centric web interfaces for global clients </li>
+                        <li>Collaborated directly with clients and internal teams to define requirements</li>
+                        <li> Awarded Employee of the Month (2x) for design excellence and performance</li>
+                      </ul>
+                    </div>
+                  </div>
+                  </div>
+
+                  
+
+                  
+                
+                  
+                </div>
+
+              </div>
+            </div>
+
+          <div class="col-lg-6 d-none" data-aos="fade-left" data-aos-delay="200">
+            <div class="education-section">
+              <div class="section-header">
+                <h2><i class="bi bi-mortarboard"></i> Academic Excellence</h2>
+                <p class="section-subtitle">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget dolor aenean massa.</p>
+              </div>
+
+              <div class="education-timeline">
+                <div class="timeline-track"></div>
+
+                <div class="education-item" data-aos="slide-up" data-aos-delay="300">
+                  <div class="timeline-marker"></div>
+                  <div class="education-content">
+                    <div class="degree-header">
+                      <h3>Master of Computer Science</h3>
+                      <span class="year">2015 - 2017</span>
+                    </div>
+                    <h4 class="institution">Tempus University</h4>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec quam felis ultricies nec.</p>
+                  </div>
+                </div>
+
+                <div class="education-item" data-aos="slide-up" data-aos-delay="400">
+                  <div class="timeline-marker"></div>
+                  <div class="education-content">
+                    <div class="degree-header">
+                      <h3>Bachelor of Information Technology</h3>
+                      <span class="year">2011 - 2015</span>
+                    </div>
+                    <h4 class="institution">Rhoncus Institute of Technology</h4>
+                    <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus elementum semper nisi aenean vulputate.</p>
+                  </div>
+                </div>
+
+                <div class="education-item" data-aos="slide-up" data-aos-delay="500">
+                  <div class="timeline-marker"></div>
+                  <div class="education-content">
+                    <div class="degree-header">
+                      <h3>Certificate in Digital Innovation</h3>
+                      <span class="year">2020</span>
+                    </div>
+                    <h4 class="institution">Ligula Academy</h4>
+                    <p>Etiam sit amet orci eget eros faucibus tincidunt duis leo sed fringilla mauris sit amet nibh donec sodales sagittis magna.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="work" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Featured Case Studies</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-cart2"></i>
+              </div>
+              <h3>Delivery Management System (DMS)</h3>
+              <p>DMS is an operational platform designed to manage order allocation, debrifing, delivery status updates, and performance monitoring across logistics teams.</p>
+              <div class="card-links">
+                <a href="DMS.html" class="link-item">
+                  Learn More
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-truck"></i>
+              </div>
+              <h3>Multi-User E-Commerce Admin System</h3>
+              <p>Designed scalable admin, vendor & delivery flows</p>
+              <div class="card-links">
+                <a href="#" class="link-item">
+                  Learn More
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <h3>AI Agent Dashboard</h3>
+              <p>Designing human-centered AI interfaces</p>
+              <div class="card-links">
+                <a href="#" class="link-item">
+                  Learn More
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->       
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© 2026 <span>Copyright</span> <strong class="px-1 sitename">Vivek Kumar</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="mailto:vivekwebmaker@gmail.com" target="_blank" class="email"><i class="bi bi-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/vivek-kumar-118a38186/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/webuimaker/"><i class="bi bi-github"></i></a>
+      </div>
+    
     </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
