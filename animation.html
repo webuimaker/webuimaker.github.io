@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fintech Architecture Animation</title>
+
+<style>
+body{
+  margin:0;
+  background:#F4F5F8;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  width:900px;
+  height:900px;
+  position:relative;
+}
+
+/* ===== SVG STYLE ===== */
+svg{
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+
+path{
+  fill:none;
+  stroke:#C9CED6;
+  stroke-width:1;
+  stroke-linecap:round;
+
+  /* IMPORTANT: dash length large enough */
+  stroke-dasharray:1500;
+  stroke-dashoffset:1500;
+  animation:drawLine 2.8s cubic-bezier(.65,.05,.36,1) forwards;
+}
+
+/* stagger effect */
+path:nth-child(1){ animation-delay:.2s; }
+path:nth-child(2){ animation-delay:.4s; }
+path:nth-child(3){ animation-delay:.6s; }
+path:nth-child(4){ animation-delay:.8s; }
+
+/* center cross */
+.center-v,
+.center-h{
+  position:absolute;
+  background:#D5DAE2;
+  opacity:0;
+  animation:fadeIn .8s ease forwards;
+  animation-delay:1.6s;
+}
+
+.center-v{
+  width:1px;
+  height:70px;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+
+.center-h{
+  height:1px;
+  width:70px;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+
+/* ===== TEXT ===== */
+.label{
+  position:absolute;
+  font-size:12px;
+  letter-spacing:1.6px;
+  font-weight:600;
+  color:#8D93A1;
+  opacity:0;
+  animation:fadeIn 1s ease forwards;
+  animation-delay:2.2s;
+}
+
+/* positioning */
+.apm{ top:70px; left:50%; transform:translateX(-50%);}
+.token{ bottom:70px; left:50%; transform:translateX(-50%);}
+
+.subscriptions{ top:200px; left:120px;}
+.reconciliation{ top:200px; right:120px;}
+
+.payment{ top:50%; left:40px; transform:translateY(-50%);}
+.fraud{ top:50%; right:40px; transform:translateY(-50%);}
+
+.insights{ bottom:200px; left:150px;}
+.payouts{ bottom:200px; right:150px;}
+
+/* ===== KEYFRAMES ===== */
+@keyframes drawLine{
+  to{
+    stroke-dashoffset:0;
+  }
+}
+
+@keyframes fadeIn{
+  to{
+    opacity:1;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+<div class="container">
+
+<svg viewBox="0 0 900 900">
+
+  <!-- Top Left Bracket -->
+  <path d="M250 120 
+           C250 250 250 320 450 450" />
+
+  <!-- Top Right Bracket -->
+  <path d="M650 120 
+           C650 250 650 320 450 450" />
+
+  <!-- Bottom Left Bracket -->
+  <path d="M250 780 
+           C250 650 250 580 450 450" />
+
+  <!-- Bottom Right Bracket -->
+  <path d="M650 780 
+           C650 650 650 580 450 450" />
+
+</svg>
+
+<div class="center-v"></div>
+<div class="center-h"></div>
+
+<div class="label apm">APM INTEGRATION</div>
+<div class="label token">TOKENIZATION</div>
+
+<div class="label subscriptions">SUBSCRIPTIONS</div>
+<div class="label reconciliation">RECONCILIATION</div>
+
+<div class="label payment">PAYMENT ACCEPTANCE</div>
+<div class="label fraud">FRAUD PREVENTION</div>
+
+<div class="label insights">INSIGHTS</div>
+<div class="label payouts">PAYOUTS</div>
+
+</div>
+</div>
+
+</body>
+</html>
